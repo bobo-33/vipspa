@@ -1,0 +1,54 @@
+.xdsoft_datetimepicker{box-shadow:0 0 4px rgba(0,0,0,.2);color:#fff;display:block;padding-left:0;position:absolute;z-index:9999;-moz-box-sizing:border-box;box-sizing:border-box;display:none;background-color:#fff;border:1px solid #4ab1ff}
+.xdsoft_datetimepicker iframe{position:absolute;left:0;top:0;width:75px;height:210px;background:0 0;border:none}
+.xdsoft_datetimepicker button{border:none!important}
+.xdsoft_noselect{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
+.xdsoft_noselect::selection{background:0 0}
+.xdsoft_noselect::-moz-selection{background:0 0}
+.xdsoft_datetimepicker.xdsoft_inline{display:inline-block;position:static;box-shadow:none}
+.xdsoft_datetimepicker *{-moz-box-sizing:border-box;box-sizing:border-box;padding:0;margin:0}
+.xdsoft_datetimepicker .xdsoft_datepicker,.xdsoft_datetimepicker .xdsoft_timepicker{display:none}
+.xdsoft_datetimepicker .xdsoft_datepicker.active,.xdsoft_datetimepicker .xdsoft_timepicker.active{display:block}
+.xdsoft_datetimepicker .xdsoft_datepicker{float:left}
+.xdsoft_datetimepicker .xdsoft_timepicker{width:58px;float:left;text-align:center;margin-left:8px;margin-top:0}
+.xdsoft_datetimepicker .xdsoft_datepicker.active+.xdsoft_timepicker{margin-top:8px;margin-bottom:3px}
+.xdsoft_datetimepicker .xdsoft_mounthpicker{position:relative;text-align:center;background-color:#53aa63;height:40px;box-sizing:border-box}
+.xdsoft_datetimepicker .xdsoft_today_button{float:left;background-position:-70px 0;margin-left:5px}
+.xdsoft_datetimepicker .xdsoft_prev{float:left}
+.xdsoft_datetimepicker .xdsoft_next{float:right}
+.xdsoft_datetimepicker .xdsoft_next,.xdsoft_datetimepicker .xdsoft_prev{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.xdsoft_datetimepicker .xdsoft_prev:before{content:"\e879"}
+.xdsoft_datetimepicker .xdsoft_next:before{content:"\e662"}
+.xdsoft_datetimepicker .xdsoft_next,.xdsoft_datetimepicker .xdsoft_prev,.xdsoft_datetimepicker .xdsoft_today_button{background-color:transparent;border:0;cursor:pointer;display:block;height:40px;outline:0;overflow:hidden;padding:0;position:relative;width:40px}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{height:151px;overflow:hidden;border-bottom:1px solid #e5e5eb}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{background:#fafafa;border-top:1px solid #e5e5eb;color:#333;font-size:12px;text-align:center;border-collapse:collapse;cursor:pointer;border-bottom-width:0;height:25px;line-height:25px}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:first-child{border-top-width:0}
+.xdsoft_datetimepicker .xdsoft_next:hover,.xdsoft_datetimepicker .xdsoft_prev:hover,.xdsoft_datetimepicker .xdsoft_today_button:hover{background-color:#53aa63}
+.xdsoft_datetimepicker .xdsoft_label{display:inline;position:relative;z-index:9999;margin:0;padding:5px 10px;font-size:14px;line-height:30px;font-weight:700;float:left;text-align:center;cursor:pointer}
+.xdsoft_datetimepicker .xdsoft_label:hover{text-decoration:underline}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select{border:1px solid #4eb2ff;position:absolute;display:block;left:0;top:39px;z-index:101;display:none;background:#53aa63;max-height:182px;overflow-y:hidden}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select.xdsoft_monthselect{right:-7px}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select.xdsoft_yearselect{right:2px}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option:hover{color:#fff;background-color:#53aa63}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option{padding:0 10px}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current{background:#fff;color:#333;font-weight:700}
+.xdsoft_datetimepicker .xdsoft_month{width:100px}
+.xdsoft_datetimepicker .xdsoft_calendar{clear:both}
+.xdsoft_datetimepicker .xdsoft_year{width:100px}
+.xdsoft_datetimepicker .xdsoft_calendar table{border-collapse:collapse;width:100%}
+.xdsoft_datetimepicker .xdsoft_calendar table tr td{border:none}
+.xdsoft_datetimepicker .xdsoft_calendar th{height:30px;font-size:16px}
+.xdsoft_datetimepicker .xdsoft_calendar td,.xdsoft_datetimepicker .xdsoft_calendar th{width:14.2857142%;text-align:center;background:#fff;color:#333;font-size:14px;text-align:center;padding:0 11px;border-collapse:collapse;cursor:pointer;height:40px}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today{color:#333;background-color:#fafafa}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current{background:#53aa63;color:#fff;font-weight:700}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_disabled,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_other_month,.xdsoft_datetimepicker .xdsoft_time_box>div>div.xdsoft_disabled{opacity:.5}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_other_month.xdsoft_disabled{opacity:.2}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{color:#fff!important;background:#84dc7a!important;box-shadow:none!important}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_disabled:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_disabled:hover{color:inherit	!important;background:inherit!important;box-shadow:inherit!important}
+.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:700;text-align:center;color:#333;cursor:default;background-color:#fafafa}
+.xdsoft_datetimepicker .xdsoft_copyright{color:#ccc!important;font-size:10px;clear:both;float:none;margin-left:8px}
+.xdsoft_datetimepicker .xdsoft_copyright a{color:#eee!important}
+.xdsoft_datetimepicker .xdsoft_copyright a:hover{color:#aaa!important}
+.xdsoft_time_box{position:relative;border:1px solid #ccc}
+.xdsoft_scrollbar>.xdsoft_scroller{height:20px;border-radius:0}
+.xdsoft_scrollbar{position:absolute;width:7px;width:7px;right:0;top:0;bottom:0;cursor:pointer}
+.xdsoft_scroller_box{position:relative}

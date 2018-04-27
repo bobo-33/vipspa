@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="fonts/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.datatimepicker.css"/>
+		<!--ie8兼容bootstrap解决方案-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+       
+	</head>
+	<body>
+		<div class="wraper">
+			<div class="clearfix index_top">
+				<div class="pull-left"></div>
+				<ul class="pull-right list-unstyled list-inline">
+					<li><i class="iconfont icon-admin"></i><a href="">admin</a></li>
+					<li><i class="iconfont icon-login"></i><a href="">退出登录</a></li>
+				</ul>
+			</div>
+			<div class="clearfix">
+				<div class="sider">
+					<ul>
+						<li>
+							<div class="menu">
+								<span></span>
+								<a href="#home">首页</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu">
+								<span></span>
+								<a href="javascript:void(0);">档案管理</a>
+							</div>
+							<div class="sub_menu">
+                                <p><a href="#file_index" >档案列表</a></p>
+                                <p><a href="#file_upload" >上传档案</a></p>
+                           </div>
+						</li>
+						<li>
+							<div class="menu">
+								<span></span>
+								<a href="javascript:void(0);">档案借阅记录</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu">
+								<span></span>
+								<a href="javascript:void(0);">档案下载记录</a>
+							</div>
+						</li>
+						<li>
+							<div class="menu">
+								<span></span>
+								<a href="javascript:void(0);">用户管理</a>
+							</div>	
+						</li>
+					</ul>
+				</div>
+				<div class="rightContent pull-left" id="ui-view">
+					
+				</div>
+				
+			</div>
+		</div>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/vipspa.js"></script>
+		<script type="text/javascript" src="js/require.vipspa.config.js"></script>
+		<script src="js/jquery.datatimepicker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/html" id="error">
+			<!--可以自定义错误信息-->
+			<div>
+				{{errStatus}}
+			</div>
+			<div>
+				{{errContent}}
+			</div>
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,68 @@
+
+<div class="main_s">
+	<p class="main_h2"><a href="" class="iconfont icon-iguanli">档案管理</a><i class="iconfont icon-right"></i><span>档案列表</span></p>
+	<hr class="main_hr"/>
+	<div>
+		<div class="file_form">
+			<form class="form-inline" role="form">
+			  <div class="form-group ml30">
+			    <label for="name">档案名称</label>
+			    <input type="text" class="form-control" id="name" >
+			  </div>
+			  <div class="form-group cal">
+			    <label for="startTime">档案创建时间</label>
+			    <input type="text" class="form-control" id="startTime">
+			    <span class="iconfont icon-rili"></span>
+			  </div>
+			  <button type="submit" class="btn btn-default"><i class="iconfont icon-search"></i>提交</button>
+			</form>
+		</div>
+		<div class="file_table">
+			<table class="table table-bordered">
+			  <thead>
+			    <tr>
+			      <th><input type="checkbox"  id='checkall' /></th>
+			      <th>序号</th>
+			      <th>档案名称</th>
+			      <th>档案类型</th>
+			      <th>档案创建时间</th>
+			      <th>档案简介</th>
+			      <th>操作</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td><input type="checkbox" name="file" /></td>
+			      <td>1</td>
+			      <td>档案1</td>
+			      <td>档案类型1</td>
+			      <td>2018-3-17</td>
+			      <td><p>-</p></td>
+			      <td><a href="" class="text-info">查看</a><a href="" class="text-danger ml90">删除</a></td>
+			    </tr>
+			    <tr>
+			      <td><input type="checkbox" name="file" /></td>
+			      <td>2</td>
+			      <td>档案2</td>
+			      <td>档案类型1</td>
+			      <td>2018-3-17</td>
+			      <td><p>-</p></td>
+			      <td><a href="" class="text-info">查看</a><a href="" class="text-danger ml90">删除</a></td>
+			    </tr>
+
+			  </tbody>
+			</table>
+			<div class="clearfix">
+				<ul class="pagination pull-right">
+				    <li><a href="#">首页</a></li>
+				    <li class="pre"><a href="#">上一页</a></li>
+				    <li class="active"><a href="#">1</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li class="next"><a href="#">下一页</a></li>
+				    <li><a href="#">尾页</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

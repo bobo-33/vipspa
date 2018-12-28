@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+.Wrapper{
+	min-width: 1366px;
+}
+/* *
+ * 
+ * header
+ * 
+ * */
+.header{
+	width: 100%;
+	height: 150px;
+	background: url(../img/index/headNew.png) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.logout{
+	width: 400px;
+	height: 35px;
+	background: url(../img/index/logout.png) 0 0 no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	right: 50px;
+	line-height: 35px;
+	text-align: center;
+}
+.logo{
+	width: 550px;
+	height: 75px;
+	background: url(../img/index/logo.png) 0 0 no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 100px;
+	transform: translateY(-50%);
+}
+.shadow{
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	z-index: 10;
+	-moz-box-shadow: 0 3px 5px #5d5b5b;
+    -webkit-box-shadow: 0 3px 5px #5d5b5b;
+    box-shadow: 0 3px 5px #5d5b5b;
+}
+.topMenu{
+	position: absolute;
+    right: 50px;
+    bottom: 0;
+    
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px -4px 10px rgba(0,0,0,.2);
+    background: -moz-linear-gradient(top, #fafafa 0%, #d6d6d6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#d6d6d6));
+    background: -webkit-linear-gradient(top, #fafafa 0%,#d6d6d6 100%);
+    background: -o-linear-gradient(top, #fafafa 0%,#d6d6d6 100%);
+    background: -ms-linear-gradient(top, #fafafa 0%,#d6d6d6 100%);
+    background: linear-gradient(to bottom, #fafafa 0%,#d6d6d6 100%);
+}
+.topMenu>ul{
+	overflow: hidden;
+}
+.topMenu>ul li{
+	float: left;
+	padding: 12px 0;
+}
+.topMenu>ul li a{
+	display: block;
+    padding: 0 25px;
+    line-height: 40px;
+    border-left: 1px solid rgb(25,90,4);
+    color: initial;
+}
+.topMenu>ul li:first-child{
+	border-top-left-radius: 10px;
+}
+.topMenu>ul li:last-child{
+	border-top-right-radius: 10px;
+}
+.topMenu>ul li:first-child a{
+	border: none;
+}
+.topMenu>ul li:hover,
+.topMenu>ul li.active{
+	background: -moz-linear-gradient(top, #178f2e 0%, #064d14 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#178f2e), color-stop(100%,#064d14));
+    background: -webkit-linear-gradient(top, #178f2e 0%,#064d14 100%);
+    background: -o-linear-gradient(top, #178f2e 0%,#064d14 100%);
+    background: -ms-linear-gradient(top, #178f2e 0%,#064d14 100%);
+    background: linear-gradient(to bottom, #178f2e 0%,#064d14 100%);
+}
+.topMenu>ul li:hover a,
+.topMenu>ul li a:link,
+.topMenu>ul li a:visited,
+.topMenu>ul li a:hover{
+	text-decoration: none;
+}
+.topMenu>ul li:hover a,
+.topMenu>ul li.active a{
+	color: #fff;
+}
+
+/* *
+ * 
+ * left-menu
+ * 
+ * */
+
+.left{
+	float: left;
+	width: 230px;
+	height: 100%;
+	min-height: 100%;
+	z-index: 810;
+	background-color: #222d32;
+}
+
+/* *
+ * 
+ * right
+ * 
+ * */
+
+.right{
+	float: right;
+	width: calc(100% - 230px);
+	height: 100%;
+	padding: 10px;
+}
+.right>div{
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(25,90,4);
+}
+
+/* *
+ * 
+ * fullBox
+ * 
+ * */
+.fullBox{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+.fullBox>div{
+	width: 100%;
+	height: 100%;
+	border: 1px solid rgb(25,90,4);
+}
+/* *
+ * 
+ * footer
+ * 
+ * */
+.footer{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+}

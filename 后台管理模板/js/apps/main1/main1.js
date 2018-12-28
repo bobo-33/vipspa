@@ -1,2 +1,0 @@
-//sidebarMenu
-$.sidebarMenu($('.sidebar-menu'))

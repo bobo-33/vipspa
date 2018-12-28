@@ -164,3 +164,37 @@
 	background: rgba(0,0,0,.5);
 	color: #fff;
 }
+
+
+/* *
+ * 
+ * 自定义错误信息
+ * 
+ * */
+.errorBox{
+	width: 100%;
+	height: 100%;
+	background: url(../img/error1.png) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.error1{
+	width: 30%;
+    height: 30%;
+    background: url(../img/error2.png) center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-40%);
+}
+.error2{
+	width: 30%;
+    height: 15%;
+    background: url(../img/error3.png) center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-70%);
+}

@@ -3,6 +3,7 @@
         
     }
     Vipspa.prototype.start = function(config){
+    	location.hash=config.router.defaults
         var self = this;
         self.routerMap = config.router;
         self.mainView = config.view;

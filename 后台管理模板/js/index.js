@@ -10,6 +10,18 @@ $(function(){
 vipspa.start({
     view: '#ui-view',
     router: {
+    	'main2': { 
+          	templateUrl: 'views/main2/main2.html',
+          	controller: 'js/apps/main2/main2.js',
+        },
+        'main3': { 
+          	templateUrl: 'views/main3/main3.html',
+          	controller: 'js/apps/main3/main3.js',
+        },
+        'main4': { 
+          	templateUrl: 'views/main4/main4.html',
+          	controller: 'js/apps/main4/main4.js',
+        },
         'main1': { 
           	templateUrl: 'views/main1/main1.html',
           	controller: 'js/apps/main1/main1.js',
@@ -82,19 +94,8 @@ vipspa.start({
                 }
             ]
         },
-       	'main2': { 
-          	templateUrl: 'views/main2/main2.html',
-          	controller: 'js/apps/main2/main2.js',
-        },
-        'main3': { 
-          	templateUrl: 'views/main3/main3.html',
-          	controller: 'js/apps/main3/main3.js',
-        },
-        'main4': { 
-          	templateUrl: 'views/main4/main4.html',
-          	controller: 'js/apps/main4/main4.js',
-        },
-        'defaults': 'main1' //默认路由
+       	
+      'defaults': 'main1/a1', //默认路由
     },
     errorTemplateId: '#error',  //可选的错误模板，用来处理加载html模块异常时展示错误内容
       	
